@@ -1,0 +1,30 @@
+plugins = []
+functionsDirectory = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\build"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+functions = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

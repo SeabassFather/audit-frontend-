@@ -1,0 +1,31 @@
+plugins = []
+functionsDirectory = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\public\\netlify\\functions"
+functionsDirectoryOrigin = "config"
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\public\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\public"
+command = "npx expo export -p web"
+functions = "C:\\AuditDNA\\AuditDNA-Project\\Frontend\\frontend\\public\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
