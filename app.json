@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "be87a2b0-4694-4728-85d2-ae6f9a8afc52"
+      }
+    },
+    "android": {
+      "package": "com.seabassfather.garciafamilymortgage"
+    }
+  }
+}
